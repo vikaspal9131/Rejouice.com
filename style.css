@@ -174,8 +174,76 @@ nav>h3{
   /* position: relative; */
   justify-content: center;
   align-items: center;
+  /* flex-direction: column; */
 }
 
 .page4 video{
   height: 100%;
+}
+
+
+.page5{
+  padding: 2vw ;
+  height: 50vw;
+  width: 100%;
+  
+}
+
+.page5-top h1{
+  font-weight: 50;
+  font-family: Rejoin;
+  font-size: 1.8vw;
+  /* margin-top: 8vw; */
+}
+
+.page5-top h2{
+  font-weight: 50;
+  font-family: Rejoin;
+  font-size: 1.8vw;
+  margin-bottom: 2vw;  
+}
+
+.page5-top 
+{
+  border-bottom: 1px solid rgba(59, 55, 55, 0.753);
+  margin-bottom: 7vw;
+}
+
+.page5-bottom h1
+{
+
+  font-family: nb;
+  font-size: 4vw;
+  font-weight: 100;  
+}
+
+
+.page4-side h1{
+  font-family: Rejoin;
+  font-size: 2.5vw;
+  font-weight: 50;
+  
+}
+
+.page6{
+  height: 50vw;
+  width: 100%;
+}
+
+.page6-top{
+  padding: 2vw;
+  border-bottom: 1px solid black;
+}
+
+.page6-top h1{
+  font-family: Rejoin;
+  font-size: 9vw;
+  font-weight: 100;
+  /* background-color: red; */
+}
+.swiper{
+  height: 30vw;
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
 }
