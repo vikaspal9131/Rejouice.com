@@ -1,5 +1,6 @@
 function cursorEffect(){
-  let page1Content = document.querySelector(".page1-content");
+
+let page1Content = document.querySelector(".page1-content");
 let cursor = document.querySelector(".cursor");
 
 
@@ -57,3 +58,5 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 
 // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
 ScrollTrigger.refresh();
+
+
